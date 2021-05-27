@@ -1,0 +1,56 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="CheckDelayTime" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="SendDay" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="DataDB" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=023-LPT\SQLServerR2; Initial Catalog=MailService; User Id=sa; Password=parlons;multipleactiveresultsets=True;&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=023-LPT\SQLServerR2; Initial Catalog=MailService; User Id=sa; Password=parlons;multipleactiveresultsets=True;</Value>
+    </Setting>
+    <Setting Name="mailServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smtp.gmail.com</Value>
+    </Setting>
+    <Setting Name="mailServerPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="mailSender" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">invio@delivery.it</Value>
+    </Setting>
+    <Setting Name="mailSenderName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">delivery.it</Value>
+    </Setting>
+    <Setting Name="mailUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">a.lobianco72@gmail.com</Value>
+    </Setting>
+    <Setting Name="mailPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Francesca2006</Value>
+    </Setting>
+    <Setting Name="mailSSL" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="mailCC" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">a.lobianco72@gmail.com</Value>
+    </Setting>
+    <Setting Name="pathfileconflog4net" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Progetti\ISimply\ReminderService\LogXml\log4net.xml</Value>
+    </Setting>
+    <Setting Name="MailWarningMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Buongiorno, a causa di un errore non è stato recapitato il documento al seguente indirizzo email:</Value>
+    </Setting>
+    <Setting Name="MailWarningSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Warning servizio Email Automatica</Value>
+    </Setting>
+    <Setting Name="MailSendErrorMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Invio email non terminato correttamente consultare il file di log</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
