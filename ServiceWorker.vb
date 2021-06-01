@@ -104,6 +104,7 @@ Namespace TegService
                         End If
                         'elenco destinatari
                         ListRecipient = New List(Of String)
+                        ListAttachments = New List(Of MailAttachment)
                         ListRecipient.Add(myRow("email_dest").ToString)
                     End If
                     'elenco allegati
